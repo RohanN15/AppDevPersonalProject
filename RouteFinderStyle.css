@@ -1,0 +1,112 @@
+/* #h2{
+    background-color: grey;
+}
+#h3{
+    color: rgb(6, 247, 6);
+    background-color: black;
+} */
+* {
+    padding: 0.5;
+    margin: 0.5;
+}
+body{
+    background-color: orange;
+    margin: 25px;
+    color: black;
+}
+
+#h2 {
+    background: aliceblue;
+    font-size: 35px;
+    text-align: center;
+}
+#h3{
+    font-size: 28px;
+}
+
+/* .card, .header {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px red;
+} */
+
+
+#enter {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+#uber_button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#Amtrak_button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#DCmetro_button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#flightaware_button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* 
+a {
+    display: inline-block;
+    padding: 5px;
+    background: black;
+    color: rgb(0, 255, 213);
+    margin: 20px;
+    border-radius: 25px;
+    background: black;
+    padding: 20px;
+    width: 20px;
+    height: 15px;
+} */
+
+#uber{
+    padding:50px;
+    /* background-color: white; */
+}
+#amtrak{
+    /* padding:50px; */
+    /* background-color: white; */
+}
+#metro{
+    padding:50px;
+}
+#flightaware{
+    padding:50px;
+}
