@@ -1,9 +1,10 @@
-* {
+/* * {
     padding: 0.5;
     margin: 0.5;
-}
+} */
 body{
-    background-color: orange;
+    background-image: linear-gradient(to bottom right, orange, yellow);
+    background-attachment: fixed;
     margin: 25px;
     color: black;
 }
