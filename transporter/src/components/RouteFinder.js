@@ -1,0 +1,41 @@
+import {React} from 'react'
+import './RouteFinder.css'
+function RouteFinder(){
+    return (
+        <div id='RouteFinder'>
+            <h2 id="h2">Transporter</h2>
+            <h3 id="h3">Route Finder</h3>
+            <br/>
+            <label id="start" for="Start">Start:</label>
+            <input type="text" id="Start" name="Start" placeholder="Search Address"/>
+            <br/>
+            <label id="Destination" for="Address">Destination:</label>
+            <input type="text" id="Address" name= "stop" placeholder="Search Address"/>
+            <br/>
+            <button id="enter">Enter</button>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <a href="https://www.uber.com/" target = "_blank">
+                <button id="uber_button">Uber</button>
+            </a>
+            <a href="https://www.amtrak.com/home.html" target = "_blank">
+                <button id="Amtrak_button">Amtrak</button>
+            </a>
+            <a href="https://www.wmata.com/" target = "_blank">
+                <button id="DCmetro_button">DC Metro</button>
+            </a>
+            <a href = "https://www.flightaware.com/" target = "_blank">
+                <button id="flightaware_button">FlightAware</button>
+            </a>
+            <br/>
+            <br/>
+            <img width = "300" src = "https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/f452c7aefd72a6f52b36705c8015464e.jpg" id="uber"/>
+            <img width = "300" src = "https://1000logos.net/wp-content/uploads/2020/09/Amtrak-Logo.png" id="amtrak"/>
+            <img width = "150" src = "https://upload.wikimedia.org/wikipedia/commons/0/0a/WMATA_Metro_Logo_small.svg" id = "metro"/>
+            <img width = "300" src = "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/FlightAware_logo.svg/1200px-FlightAware_logo.svg.png" id="flightaware"/>
+        </div>
+    );
+}
+export default RouteFinder;

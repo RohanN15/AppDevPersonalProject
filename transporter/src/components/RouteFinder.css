@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to bottom right, orange, yellow);
+    background-attachment: fixed;
+    /* margin: 5px; */
+    color: black;
+}
+
+#h2 {
+    /* display: inline-block; */
+    /* background: black; */
+    font-size: 55px;
+    text-align: center;
+}
+#h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+#start{
+    font-size: 18px;
+}
+#Destination{
+    font-size: 18px;
+}
+#enter {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+#uber_button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    margin-left:10px;
+    margin-right: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#Amtrak_button{
+    background-color: black; /* Green */
+    margin-left:10px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#DCmetro_button{
+    background-color: black; /* Green */
+    margin-left:10px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#flightaware_button{
+    background-color: black; /* Green */
+    margin-left:10px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#uber{
+    margin-left:30px;
+    margin-right: 30px;
+}
+#amtrak{
+    margin-left:30px;
+    margin-right: 30px;
+}
+#flightaware{
+    margin-left:30px;
+    margin-right: 30px;
+}
+#metro{
+    margin-left:30px;
+    margin-right: 30px;
+}
