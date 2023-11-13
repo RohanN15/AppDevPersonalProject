@@ -17,7 +17,7 @@ function RouteFinder(){
             <br/>
             <br/>
             <br/>
-            <a href="https://www.uber.com/" target = "_blank">
+            {/* <a href="https://www.uber.com/" target = "_blank">
                 <button id="uber_button">Uber</button>
             </a>
             <a href="https://www.amtrak.com/home.html" target = "_blank">
@@ -28,7 +28,7 @@ function RouteFinder(){
             </a>
             <a href = "https://www.flightaware.com/" target = "_blank">
                 <button id="flightaware_button">FlightAware</button>
-            </a>
+            </a> */}
             <br/>
             <br/>
             <img width = "300" src = "https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/f452c7aefd72a6f52b36705c8015464e.jpg" id="uber"/>
