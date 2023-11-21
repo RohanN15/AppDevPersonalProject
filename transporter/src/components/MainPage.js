@@ -1,15 +1,6 @@
 import {React} from 'react'
-import { useNavigate } from 'react';
-import './RouteFinder.js'
 import './MainPage.css'
 function MainPage(){
-    function routeButton(){
-        let navigate = useNavigate(); 
-        const routeChange = () =>{ 
-        let path = `./components/RouteFinder`; 
-        navigate(path);
-    }
-    
     return(
         <div id='MainPage'>
             
@@ -19,9 +10,6 @@ function MainPage(){
             <p><b>Disclaimer: </b>I am not completely sure if I need consent from any of the services I am using but I definitely do not have it so just keep that in mind while using it</p>
             <p><b>Click on the button below to start your search</b></p>
             <br/>
-            
-                
-            <button id="route_finder" onClick={routeButton}>Route Finder</button>
             <br/>
             <br/>
             <br/>
@@ -31,6 +19,5 @@ function MainPage(){
             <img id="flightaware" width = "300" src = "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/FlightAware_logo.svg/1200px-FlightAware_logo.svg.png"/>
         </div>
     );
-}
 }
 export default MainPage;
