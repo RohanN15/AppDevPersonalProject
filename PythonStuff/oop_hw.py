@@ -6,7 +6,7 @@ class Cat:
     def get_cat_breed(self):
         result = requests.get('https://catfact.ninja/breeds')
         data = result.json()["data"]
-        print(data[self.n])
+        print(data[self.n]['breed'])
 
 
 cat = Cat(3)
