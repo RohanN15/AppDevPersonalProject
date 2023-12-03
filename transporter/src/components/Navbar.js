@@ -5,8 +5,8 @@ function NavBar(){
     return(
         <nav>
             <ul>
-                {/* <li><Link to="/">MainPage</Link></li> */}
-                <li><Link to="/RouteFinder">RouteFinder</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/RouteFinder">Route Finder</Link></li>
             </ul>
         </nav>
 

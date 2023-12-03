@@ -8,7 +8,7 @@ function MainPage(){
             <h3 id='h3'>About</h3>
             <p>This webpage is meant to show users without their own transportation the best way to get to where they want to go. The website will leverage public transport systems including trains, planes, and Uber to find the optimal transport based on time and cost. This is a developing site. Eventually the plan is to include more transportation systems (Subway, NJTransit, etc)</p>
             <p><b>Disclaimer: </b>I am not completely sure if I need consent from any of the services I am using but I definitely do not have it so just keep that in mind while using it</p>
-            <p><b>Click on the button below to start your search</b></p>
+            <p><b>Click Route Finder in the menu to start your search</b></p>
             <br/>
             <br/>
             <br/>
